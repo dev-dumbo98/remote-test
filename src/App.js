@@ -1,5 +1,5 @@
 import React,{useState,useEffect,useRef} from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 import { io } from 'socket.io-client';
@@ -7,7 +7,7 @@ import { io } from 'socket.io-client';
 const socket = io('http://121.133.122.31:9999');
 
 function App() {
-  const [image, setImage] = useState(null);
+  // const [image, setImage] = useState(null);
   const canvasRef = useRef(null);
 
 
