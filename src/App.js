@@ -19,7 +19,7 @@ function App() {
 
 
    useEffect(() => {
-    console.log('test')
+    console.log('test!')
         socket.on('screen-update', (data) => {
             const img = new Image();
             img.src = `data:image/png;base64,${data}`;
